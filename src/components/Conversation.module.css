@@ -1,0 +1,54 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerChat {
+    width: 80%;
+    height: 60%;
+    padding: 5%;
+    border-radius: 50px;
+    background-color: aquamarine;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.containerAnswers {
+    width: 100%;
+    height: 40%;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.answerBox {
+    width: 100%;
+    height: 25%;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: goldenrod;
+    border: 2px solid white;
+    font-size: x-large;
+}
+
+.answerBox:hover {
+    color: #fff;
+}
+
+.jesusAnswer {
+    width: 90%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding-left: 15px;
+    background-color: rgb(2, 227, 227);
+}
